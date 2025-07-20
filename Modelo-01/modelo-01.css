@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+body {
+    align-items: center;
+
+    display: flex;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    justify-content: center;
+
+    margin: 50px;
+}
+
+form {
+    width: 900px;
+}
+
+input {
+    border: none;
+
+    color: #000;
+
+    /* 
+        Faz com que o tamanho do input se ajuste ao 
+        tamanho do seu conteúdo 
+    */
+    field-sizing: content;
+
+    font-size: 16px;
+
+    outline: 0;
+}
+
+textarea {
+    border: none;
+
+    field-sizing: content;
+
+    font-size: 16px;
+
+    margin-top: 10px;
+
+    outline: 0;
+
+    resize: none;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 22px;
+
+    font-weight: bold;
+}
+
+ul {
+    margin: 10px 0 0 16px;
+}
+
+.personal-information,
+.experiences legend + .experience,
+.position-company-city {
+    margin-top: 10px;
+}
+
+/* Selecionando todos os elementos filhos, menos o primeiro */
+.personal-information > input:not(:first-child) {
+    padding-left: 3px;
+}
+
+/* Selecionando todos os elementos filhos, menos o último */
+.personal-information > input:not(:last-child),
+.academic-background > ul > ul > li:nth-child(1) > input:nth-child(1),
+.position-company-city > input:not(:last-child) {
+    border-right: 2px solid #000;
+
+    padding-right: 8px;
+}
+
+.object {
+    margin-top: 45px;
+}
+
+.academic-background,
+.experiences,
+.language,
+.additional-information {
+    margin-top: 40px;
+}
+
+.academic-background ul > li,
+.language ul > li,
+.additional-information ul > li {
+    margin-bottom: 12px;
+}
+
+.academic-background > ul > ul > li:nth-child(1) > input:nth-child(1),
+.position-company-city > input:not(:last-child) {
+    padding-right: 10px;
+}
+
+.academic-background ul > ul > li:nth-child(1) > input:nth-child(2),
+.position-company-city > input:not(:first-child) {
+    padding-left: 5px;
+}
+
+.academic-background > ul {
+    margin-bottom: 15px;
+}
+
+.experience {
+    margin-top: 15px;
+}
+
+/* Alterando o tamanho da fonte do campo de nome */
+[name="name"] {
+    font-size: 40px;
+
+    font-weight: bold;
+}
+
+/* Alterando a cor do placeholder */
+input::placeholder,
+textarea::placeholder {
+    color: #000;
+}
+
+/* Alterando o tamanho da fonte da data de admissão e de saída */
+[name="entry-&-exit-date"] {
+    font-size: 14px;
+}
+
+button {
+    background-color: #F0F0F0;
+
+    border: none;
+
+    border-radius: 50px;
+
+    cursor: pointer;
+
+    display: block;
+
+    font-size: 18px;
+
+    margin: 30px auto 0;
+
+    padding: 15px 0;
+
+    transition: .5s;
+
+    width: 200px;
+}
+
+button:hover {
+    background-color: #DBDBDB;
+}

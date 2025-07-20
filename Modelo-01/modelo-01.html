@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo 01</title>
+    <link rel="stylesheet" href="./modelo-01.css">
+</head>
+<body>
+    <form>
+        <input 
+            type="text" 
+            name="name" 
+            placeholder="Seu Nome"
+        >
+        <fieldset class="personal-information">
+            <input 
+                type="text" 
+                name="address"
+                placeholder="[Endereço]"
+            >
+            <input 
+                type="text"
+                name="city-state-zip-code"
+                placeholder="[Cidade | Estado | CEP]"
+            >
+            <input 
+                type="tel" 
+                name="phone"
+                placeholder="[Telefone]"
+            > 
+            <input 
+                type="email" 
+                name="email" 
+                placeholder="[Email]"
+            > 
+            <input 
+                type="text" 
+                name="linkedin" 
+                placeholder="[Linkedin]"
+            >
+        </fieldset>
+        <fieldset class="object">
+            <legend>Objetivo</legend>
+            <textarea 
+                name="object"
+                placeholder="[Vaga pretendida ou área de atuação]"
+            ></textarea>
+        </fieldset>
+        <fieldset class="academic-background">
+            <legend>Formação</legend>
+            <ul>
+                <li>
+                    <input 
+                        type="text" 
+                        name="educational-institution" 
+                        placeholder="[Nome da instituição, Cidade, Estado]"
+                    >
+                </li>
+                <ul>
+                    <li>
+                        <input 
+                            type="text" 
+                            name="course" 
+                            placeholder="[Curso]"
+                        >
+                        <input 
+                            type="text" 
+                            name="start-&-end-date" 
+                            placeholder="[Data de início - Data de conclusão]"
+                        >
+                    </li>
+                    <li>
+                        <input 
+                            type="text" 
+                            name="other-information" 
+                            placeholder="[Breve descrição do curso]"
+                        >
+                    </li>
+                </ul>
+            </ul>
+            <ul>
+                <li>
+                    <input 
+                        type="text" 
+                        name="educational-institution" 
+                        placeholder="[Nome da instituição, Cidade, Estado]"
+                    >
+                </li>
+                <ul>
+                    <li>
+                        <input 
+                            type="text" 
+                            name="course" 
+                            placeholder="[Curso]"
+                        >
+                        <input 
+                            type="text" 
+                            name="start-&-end-date" 
+                            placeholder="[Previsão de conclusão]"
+                        >
+                    </li>
+                    <li>
+                        <input 
+                            type="text" 
+                            name="other-information" 
+                            placeholder="[Breve descrição do curso]"
+                        >
+                    </li>
+                </ul>
+            </ul>
+            <ul>
+                <li>
+                    <input 
+                        type="text" 
+                        name="school-name" 
+                        placeholder="[Nome da escola, Cidade, Estado]"
+                    >
+                </li>
+                <ul>
+                    <li>
+                        <input 
+                            type="text" 
+                            name="grade" 
+                            placeholder="[Grau]"
+                        >
+                        <input 
+                            type="text" 
+                            name="graduation-date" 
+                            placeholder="[Data de formatura]"
+                        >
+                    </li>
+                    <li>
+                        <input 
+                            type="text" 
+                            name="description" 
+                            placeholder="[Breve descrição]"
+                        >
+                    </li>
+                </ul>
+            </ul>
+        </fieldset>
+        <fieldset class="experiences">
+            <legend>Experiência</legend>
+            <fieldset class="experience">
+                <input 
+                    type="text"
+                    name="entry-&-exit-date"
+                    placeholder="[Data de admissão - Data de saída]"
+                >
+                <div class="position-company-city">
+                    <input 
+                        type="text" 
+                        name="position"
+                        placeholder="Cargo"
+                    >
+                    <input 
+                        type="text" 
+                        name="company"
+                        placeholder="Empresa"
+                    >
+                    <input 
+                        type="text" 
+                        name="city"
+                        placeholder="Cidade"
+                    >
+                </div>
+                <textarea 
+                    name="experience-description" 
+                    placeholder="Descreva as atividades desempenhadas e as principais realizações"
+                ></textarea>
+            </fieldset>
+            <fieldset class="experience">
+                <input 
+                    type="text"
+                    name="entry-&-exit-date"
+                    placeholder="[Data de admissão - Data de saída]"
+                >
+                <div class="position-company-city">
+                    <input 
+                        type="text" 
+                        name="position"
+                        placeholder="Cargo"
+                    >
+                    <input 
+                        type="text" 
+                        name="company"
+                        placeholder="Empresa"
+                    >
+                    <input 
+                        type="text" 
+                        name="city"
+                        placeholder="Cidade"
+                    >
+                </div>
+                <textarea 
+                    name="experience-description" 
+                    placeholder="Descreva as atividades desempenhadas e as principais realizações"
+                ></textarea>
+            </fieldset>
+            <fieldset class="experience">
+                <input 
+                    type="text"
+                    name="entry-&-exit-date"
+                    placeholder="[Data de admissão - Data de saída]"
+                >
+                <div class="position-company-city">
+                    <input 
+                        type="text" 
+                        name="position"
+                        placeholder="Cargo"
+                    >
+                    <input 
+                        type="text" 
+                        name="company"
+                        placeholder="Empresa"
+                    >
+                    <input 
+                        type="text" 
+                        name="city"
+                        placeholder="Cidade"
+                    >
+                </div>
+                <textarea 
+                    name="experience-description" 
+                    placeholder="Descreva as atividades desempenhadas e as principais realizações"
+                ></textarea>
+            </fieldset>
+            <fieldset class="language">
+                <legend>Idiomas</legend>
+                <ul>
+                    <li>
+                        <input 
+                            type="text" 
+                            placeholder="Língua (Nível de proficiência)"
+                        >
+                    </li>
+                    <li>
+                        <input 
+                            type="text" 
+                            placeholder="Língua (Nível de proficiência)"
+                        >
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset class="additional-information">
+                <legend>Informações adicionais</legend>
+                <ul>
+                    <li>
+                        <input
+                            name="awards" 
+                            placeholder="Prêmios"
+                        >
+                    </li>
+                    <li>
+                        <input
+                            name="volunteer-work" 
+                            placeholder="Trabalho voluntário"
+                        >
+                    </li>
+                    <li>
+                        <input
+                            name="exchange" 
+                            placeholder="Intercâmbio"
+                        >
+                    </li>
+                </ul>
+            </fieldset>
+        </fieldset>
+        <button onclick="window.print()">Gerar PDF</button>
+    </form>
+</body>
+</html>

@@ -28,6 +28,10 @@ h1 {
     text-align: center;
 }
 
+p {
+    margin-bottom: 15px;
+}
+
 .models {
     margin-top: 25px;
 

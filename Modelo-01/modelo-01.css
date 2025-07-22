@@ -164,3 +164,7 @@ button {
 button:hover {
     background-color: #DBDBDB;
 }
+
+.none {
+    display: none;
+}

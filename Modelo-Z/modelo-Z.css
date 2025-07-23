@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+
+  padding: 0;
+}
+
+body {
+    color: #000;
+
+    background-color: #FFF;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 50px;
+}
+
+main {
+    margin: 0 auto;
+
+    width: 900px;
+}
+
+header {
+    margin-bottom: 50px;
+
+    text-align: center;
+}
+
+.contact {
+    align-items: center;
+
+    border-top: 1px solid #000;
+
+    border-bottom: 1px solid #000;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    padding: 16px 0;
+}
+
+input[name="name"] {
+    border: none;
+
+    font-size: 40px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+
+    outline: none;
+
+    text-align: center;
+
+    width: 100%;
+}
+
+.contact input {
+  border: none;
+
+  field-sizing: content;
+
+  font-size: 15px;
+
+  outline: none;
+}
+
+.object {
+    margin-bottom: 30px;
+}
+
+.academic-background,
+.experiences,
+.languages,
+.additional-information {
+  margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 18px;
+    
+    margin-bottom: 10px;
+    
+    text-transform: uppercase;
+}
+
+textarea {
+    field-sizing: content;
+
+    resize: none;
+}
+
+.block {
+  margin-bottom: 15px;
+
+  margin-left: 17px;
+}
+
+.academic-background .block ul {
+    margin-left: 17px;
+}
+
+.languages .block {
+    margin-bottom: 3px;
+}
+
+#experiences-container div {
+    margin-bottom: 6px;
+}
+
+[placeholder="Data de admissão - Data de saída"] {
+    font-size: 14px;
+
+    font-weight: bold;
+}
+
+[placeholder="Cargo | Empresa | Cidade"] {
+    font-size: 17px;
+}
+
+input,
+textarea {
+    background: none;
+
+    border: none;
+
+    color: #000;
+    
+    font-size: 15px;
+
+    outline: none;
+    
+    margin-bottom: 8px;
+
+    width: 100%;
+}
+
+
+input::placeholder,
+textarea::placeholder {
+  color: #000;
+}
+
+.buttons {
+  display: flex;
+
+  gap: 15px;
+
+  justify-content: center;
+
+  margin-top: 40px;
+}
+
+button {
+  background-color: #EEE;
+
+  border: none;
+
+  border-radius: 20px;
+
+  cursor: pointer;
+
+  padding: 12px 25px;
+
+  font-size: 18px;
+  
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #CCC;
+}
+
+.add-btn {
+  background: #E0E0E0;
+
+  border: none;
+
+  border-radius: 20px;
+
+  cursor: pointer;
+
+  font-size: 15px;
+
+  margin-bottom: 20px;
+
+  margin-top: 10px;
+
+  padding: 10px 16px;
+}
+
+.add-btn:hover {
+  background: #CCC;
+}
+
+.none {
+    display: none;
+}
